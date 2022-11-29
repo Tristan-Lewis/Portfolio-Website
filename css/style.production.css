@@ -181,9 +181,11 @@ a:active {
 .page-footer2 {
     clear: both;
     position: relative;
+    position: absolute;
     text-align: center;
     width: 100%;
     top: 320px;
+    top: 80%;
     font-family: 'Londrina Shadow', cursive;
     font-weight: 700;
     font-size: 32px;
