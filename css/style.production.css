@@ -322,6 +322,7 @@ a:active {
         top: 90px;
         right: -100%;
         text-align: center;
+        z-index: 1;
         transition: all .5s;
     }
 
