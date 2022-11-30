@@ -309,7 +309,7 @@ a:active {
     font-weight: 400;
 }
 
-@media all and (max-width: 750px) {
+@media all and (max-width: 780px) {
     .grid {
         grid-gap: 10px;
     }
@@ -352,7 +352,7 @@ a:active {
     }
 }
 
-@media all and (min-width: 500px) and (max-width: 750px) {
+@media all and (min-width: 500px) and (max-width: 780px) {
     .grid {
         -ms-grid-columns: 1fr 10px 1fr;
         grid-template-columns: 1fr 1fr;
