@@ -264,7 +264,7 @@ a:active {
     border-radius: var(--border-radius-primary);
 }
 
-.grid__item a {
+.grid__item--link {
     color: white;
     border-radius: 5px;
     background-color: var(--color-primary);
@@ -280,6 +280,18 @@ a:active {
     text-align: center;
     font-size: 90px;
     font-weight: var(--font-weight-primary);
+}
+
+grid__item a:hover {
+    opacity: 1
+}
+
+.grid__item a img {
+    transition: 200ms transform ease-in-out;
+}
+
+.grid__item a img:hover {
+    transform: scale(1.025);
 }
 
 @media all and (max-width: 750px) {
