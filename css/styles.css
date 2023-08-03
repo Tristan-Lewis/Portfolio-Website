@@ -46,6 +46,11 @@ button:active {
     background-color: #0d4e74;
 }
 
+.portfolio-img {
+    height: 50px;
+    width: 50px;
+}
+
 .nav-logo {
     position: relative;
     max-width: 150px;
