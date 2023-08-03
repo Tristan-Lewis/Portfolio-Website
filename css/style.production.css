@@ -296,7 +296,7 @@ a:active {
     border-radius: 20px;
 }
 
-.grid__item a {
+.grid__item-link {
     color: white;
     border-radius: 5px;
     background-color: #1375ad;
@@ -313,6 +313,18 @@ a:active {
     text-align: center;
     font-size: 90px;
     font-weight: 400;
+}
+
+.grid__item a:hover {
+    opacity: 1
+}
+
+.grid__item a img{
+    transition: 200ms transform ease-in-out;
+}
+
+.grid__item a img:hover {
+    transform: scale(1.025);
 }
 
 @media all and (max-width: 780px) {
