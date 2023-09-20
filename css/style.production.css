@@ -24,6 +24,21 @@ main {
     box-sizing: border-box;
 }
 
+h2 {
+    text-align: center;
+    font-size: 60px;
+}
+
+h3 {
+    margin: 10px;
+    font-size: 40px;
+}
+
+ol li {
+    font-size: 20px;
+    font-weight: 700;
+}
+
 .portfolio-img {
     width: 100%;
     height: auto;
@@ -180,6 +195,32 @@ a:active {
     font-weight: bold;
 }
 
+.my {
+    color: rgb(101, 122, 214);
+}
+
+.flix {
+    color: rgb(46, 46, 46);
+}
+.my-sm {
+    color: rgb(101, 122, 214);
+}
+
+.flix-sm {
+    color: rgb(46, 46, 46);
+}
+
+.my,
+.flix {
+    font-family: Sigmar One, sans-serif;
+    font-size: 90px;
+}
+.my-sm,
+.flix-sm {
+    font-family: Sigmar One, sans-serif;
+    font-size: 60px;
+}
+
 .page-footer {
     text-align: center;
     width: 100%;
@@ -289,7 +330,7 @@ a:active {
 
 
 .grid__item {
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: whitesmoke;
     padding: 20px;
     margin: 20px;
     border: 8px solid #1375ad;
