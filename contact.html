@@ -80,16 +80,16 @@
             function sendEmail() {
                 Email.send({
                     Host: "smtp.elasticemail.com",
-                    Username: "username",
-                    Password: "password",
+                    Username: "tristanlewisdev@gmail.com",
+                    Password: "ECAEE3CAB47785D3F44D369B312B0CD608B8",
                     To: 'tristanlewisdev@gmail.com',
-                    From: document.getElementById("email").value,
+                    From: 'tristanlewisdev@gmail.com',
                     Subject: "New Contact Form Inquiry",
                     Body: "Name: " + document.getElementById("name").value +
-                    "<br> Email: " + document.getElementById("email").value +
-                    "<br> Message: " + document.getElementById("message").value
+                        "<br> Email: " + document.getElementById("email").value +
+                        "<br> Message: " + document.getElementById("message").value
                 }).then(
-                    message => alert("Message sent successfully!")
+                    message => alert(message)
                 );
 
             }
