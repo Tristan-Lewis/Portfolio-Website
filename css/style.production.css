@@ -45,6 +45,10 @@ ol li {
     border-radius: 15px;
 }
 
+p {
+    margin-bottom: 50px;
+}
+
 button:hover,
 button:focus {
     opacity: 0.9;
@@ -152,6 +156,8 @@ a {
 }
 
 .button {
+
+    margin: 0 10px;
 
     -webkit-transition-duration: 0.2s;
 
@@ -326,6 +332,7 @@ a:active {
 
 
 .grid__item {
+    position: relative;
     background-color: whitesmoke;
     padding: 20px;
     margin: 20px;
@@ -338,11 +345,23 @@ a:active {
     border-radius: 5px;
     background-color: #1375ad;
     padding: 8px;
-    position: relative;
-    bottom: 0;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
     -webkit-box-shadow: 2.5px 2.5px #105f8d;
     box-shadow: 2.5px 2.5px #105f8d;
+}
 
+.grid__item-link2 {
+    color: white;
+    border-radius: 5px;
+    background-color: #1375ad;
+    padding: 8px;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    -webkit-box-shadow: 2.5px 2.5px #105f8d;
+    box-shadow: 2.5px 2.5px #105f8d;
 }
 
 .grid__header {
@@ -362,6 +381,32 @@ a:active {
 
 .grid__item a img:hover {
     transform: scale(1.025);
+}
+
+#container {
+    width: 200px;
+    height: 200px;
+    margin: 100px auto;
+    position: relative;
+    right: 20px;
+    border-radius: 50%;
+    animation: spin 10s linear infinite;
+}
+
+.item {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    position: absolute;
+    animation: spin 10s linear infinite reverse;
+}
+
+@keyframes spin {
+    100% {
+        transform: rotate(1turn);
+    }
 }
 
 @media all and (max-width: 780px) {
