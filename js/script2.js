@@ -1,7 +1,7 @@
-var radius = 200; // adjust to move out items in and out 
+var radius = 125; // adjust to move out items in and out 
 
 var fields = $('.item'),
-    container = $('#container'),
+    container = $('#container2'),
     width = container.width(),
     height = container.height();
 
