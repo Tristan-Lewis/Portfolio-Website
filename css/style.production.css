@@ -395,15 +395,6 @@ a:active {
     width: 200px;
     height: 200px;
     margin: 100px auto;
-    position: relative;
-    right: 20px;
-    border-radius: 50%;
-    animation: spin 10s linear infinite;
-}
-#container2 {
-    width: 200px;
-    height: 200px;
-    margin: 100px auto;
     position: absolute;
     left: 350px;
     top: 325px;
@@ -470,6 +461,15 @@ a:active {
     }
     .page-header__item:first-child {
         align-self: center;
+    }
+}
+
+@media all and (max-width: 1350px) {
+    body {
+        overflow-x: hidden;
+    }
+    .tristan, .container, .item {
+        display: none;
     }
 }
 
