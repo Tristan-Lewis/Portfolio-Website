@@ -1,0 +1,80 @@
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Home</title>
+        <link rel="shortcut icon" href="./img/woofavicon.ico">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Kolker+Brush&family=Lato&family=Londrina+Shadow&family=Sigmar+One&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet" type="text/css"
+            href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+        <link rel="stylesheet" type="text/css" href="css/style.production.css">
+        <script src="https://kit.fontawesome.com/3f3eb1feb8.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <header class="page-header">
+            <img src="img/TLlogo.png" alt="Tristan Lewis logo" class="page-header__item nav-logo" aria-hidden>
+            <nav class="main-navigation page-header__item">
+                <input type="checkbox" id="check">
+                <label for="check" class="checkbtn menu">
+                    <i class="fas fa-bars"></i>
+                </label>
+                <ul role="menubar" class="navigation-list">
+                    <li role="presentation">
+                        <a href="index.html" role="menuitem" class="navigation__item button">Home</a>
+                    </li>
+                    <li role="presentation">
+                        <a href="work.html" role="menuitem" class="navigation__item button">My Work</a>
+                    </li>
+                    <li role="presentation">
+                        <a href="about.html" role="menuitem" class="navigation__item button">About Me</a>
+                    </li>
+                    <li role="presentation">
+                        <a href="contact.html" role="menuitem" class="navigation__item button">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <h1 class="grid__header"><span class="my">My</span><span class="flix">Flix API</span> Case Study</h1>
+            <div class="grid__item" style="width: 40%; min-width: 400px; text-align: center;">
+                <h3 class="my-sm">Challenge</h3>
+                <p style="font-size: 20px; font-weight: 700;">To fully develop an API for a web application that allows users to create, read, update,
+                    and
+                    delete information.</p>
+                <img />
+            </div>
+            <div class="grid__item" style="width: 40%; min-width: 400px; text-align: center; margin: 0 auto;">
+                <h3 class="flix-sm">Action</h3>
+                <p style="font-size: 20px; font-weight: 700;">I created the business logic, database, and
+                    authentication/authorization of the app.</p>
+                <img />
+            </div>
+            <div class="grid__item" style="width: 40%; min-width: 400px; text-align: center; position: absolute;
+  right: 0px;">
+                <h3 class="my-sm">Result</h3>
+                <p style="font-size: 20px; font-weight: 700;">A bolstered understanding of back-end processes and API creation.</p>
+                <img />
+            </div>
+            <h2 class="grid__header" style="margin-top: 350px;"><span class="my">My</span><span
+                    class="flix">Process</span></h2>
+            <div class="grid__item" style="width: 60%; margin: 0 auto; margin-bottom: 20px;">
+                <h3 style="font-family: Sigmar One;">Server-Side API</h3>
+                <ol>
+                    <li>Set up Express to route HTTP requests and defined endpoints</li>
+                    <li>Created a non-relational database using MongoDB</li>
+                    <li>Integrated business logic using Mongoose</li>
+                    <li>Integrated JWT authentication/authentication using Passport</li>
+                    <li>Hosted API on Heroku and connected the database to it</li>
+                    <li>Tested endpoints with Postman</li>
+                </ol>
+            </div>
+        </main>
+    </body>
+
+</html>

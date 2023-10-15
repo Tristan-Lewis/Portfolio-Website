@@ -246,6 +246,10 @@ a:active {
     animation: fadein 2s;
 }
 
+a #resume-button:hover {
+    scale: 1.2;
+}
+
 .page-footer2 {
     clear: both;
     position: absolute;
@@ -274,8 +278,14 @@ a:active {
 .page-footer img, .page-footer2 img {
     transition: transform .2s;
 }
+.page-footer #resume-button, .page-footer2 #resume-button {
+    transition: transform .2s;
+}
 
 .page-footer img:hover, .page-footer2 img:hover {
+    transform: scale(1.2);
+}
+.page-footer #resume-button:hover, .page-footer2 #resume-button:hover {
     transform: scale(1.2);
 }
 
@@ -374,13 +384,15 @@ a:active {
 .grid__item-link2 {
     color: white;
     border-radius: 5px;
-    background-color: #1375ad;
+    font-weight: 700;
+    font-size: 18px;
+    background-color: #0e8814;
     padding: 8px;
     position: absolute;
     bottom: 20px;
     left: 20px;
-    -webkit-box-shadow: 2.5px 2.5px #105f8d;
-    box-shadow: 2.5px 2.5px #105f8d;
+    -webkit-box-shadow: 2.5px 2.5px #07460a;
+    box-shadow: 2.5px 2.5px #07460a;
 }
 
 .grid__header {
@@ -421,12 +433,6 @@ a:active {
     border-radius: 50%;
     position: absolute;
     animation: spin 10s linear infinite reverse;
-}
-
-@keyframes spin {
-    100% {
-        transform: rotate(1turn);
-    }
 }
 
 @media all and (max-width: 780px) {
@@ -612,5 +618,11 @@ a:active {
 
     100% {
         background-position: 0% 50%;
+    }
+}
+
+@keyframes spin {
+    100% {
+        transform: rotate(1turn);
     }
 }
